@@ -3,8 +3,8 @@
 	require 'Lib/Carbon.php';
 	use Carbon\Carbon;
 
-	$conta = new Conta();
-	$conta->agencia = $agencia = new Agencia();
+	$conta = new Conta(1);
+	$conta->agencia = $agencia = new Agencia(789789);
 
 	$cliente = new Cliente();
 	$cliente->nome = "Juca da Silva";

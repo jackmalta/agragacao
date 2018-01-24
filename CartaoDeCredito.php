@@ -10,11 +10,7 @@
     public $nome;
     public $codigo;
 
-    function __construct($x, $y)
-    {
-      $this->nome = $x;
-      $this->codigo = $y;
-    }
+
 
   }
 
@@ -22,6 +18,11 @@
   {
     public $numero;
     public $endereco;
+
+    function __construct($n)
+    {
+      $this->numero = $n;
+    }
   }
 
   class Conta
@@ -29,6 +30,13 @@
     public $numero;
     public $saldo;
     public $limite;
+    public $agencia;
+
+
+    function __construct($agencia)
+    {
+      $this->agencia = $agencia;
+    }
   }
 
  ?>
