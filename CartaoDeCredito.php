@@ -10,6 +10,12 @@
     public $nome;
     public $codigo;
 
+    function __construct($x, $y)
+    {
+      $this->nome = $x;
+      $this->codigo = $y;
+    }
+
   }
 
   class Agencia
