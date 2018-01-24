@@ -12,4 +12,17 @@
 
   }
 
+  class Agencia
+  {
+    public $numero;
+    public $endereco;
+  }
+
+  class Conta
+  {
+    public $numero;
+    public $saldo;
+    public $limite;
+  }
+
  ?>
